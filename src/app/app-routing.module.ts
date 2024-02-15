@@ -11,6 +11,18 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'loader',
+    loadChildren: () => import('./pages/loader/loader.module').then( m => m.LoaderPageModule)
+  },
+  {
+    path: 'et',
+    loadChildren: () => import('./pages/et/et.module').then( m => m.ETPageModule)
+  },
+  {
+    path: 'ia',
+    loadChildren: () => import('./pages/ia/ia.module').then( m => m.IAPageModule)
+  },
 ];
 
 @NgModule({

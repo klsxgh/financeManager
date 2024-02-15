@@ -1,27 +1,34 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+body{
+  background-color:#001C30 ;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.expense-tracker{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 5px;
 }
+.investment-advisor{
+  // position: absolute;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 65px;
+  margin-bottom: 2px;
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
 }
+.main-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
 
-#container a {
-  text-decoration: none;
+}
+.scroll-down{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
